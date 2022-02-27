@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="to-do-app.css">
+
+
+
+    <title>To Do List</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h2>My TO-DO List App</h2>
+
+
+
+        <form id="addTask">
+            <div class="row">
+
+                <div>
+
+                    <input type="text" id="item">
+                </div>
+
+                <div class="btn">
+                    <input type="submit" class="btn" id="submit" value="Add Tasks">
+                </div>
+
+            </div>
+        </form>
+
+
+        <form id="showTask">
+            <ul class="list-group" id="items"></ul>
+        </form>
+
+        <label id="show_message" class="text-success" style="display: none;">
+</label>
+    </div>
+
+    <script src="to-do-app.js"></script>
+
+</body>
+
+</html>
