@@ -122,7 +122,15 @@ h2 {
     font-weight: lighter;
     font-size: 15px;
 }
-
+::-webkit-scrollbar{
+  height: 4px;
+  width: 4px;
+  background: rgb(202, 202, 202);
+}
+::-webkit-scrollbar-thumb:horizontal{
+  background: rgb(125, 226, 230);
+  border-radius: 10px;
+}
 #show_message {
     margin-top: 20px;
     text-align: center;
